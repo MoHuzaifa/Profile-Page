@@ -24,6 +24,13 @@ a {
 
 /* NAVBAR */
 
+#navbar {
+  background: #bf4244;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #navbar ul {
   display: flex;
   justify-content: flex-end;
@@ -66,4 +73,47 @@ a {
   color: #aa3a40;
   font-size: 1.75rem;
   margin: 1rem auto;
+}
+
+/* PROJECT SECTION */
+#project-section {
+  padding: 0 20rem;
+  background: #45567d;
+}
+
+#project-section > h1 {
+  padding: 4rem 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.5rem;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-container {
+  background: url(./images/blog.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  width: 400px;
+  height: 250px;
+}
+
+.project-title {
+  text-align: center;
+  width: 100%;
+  background: #303841;
+}
+
+.project-title p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem 0;
 }
